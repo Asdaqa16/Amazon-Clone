@@ -17,7 +17,7 @@
     padding-top: 18px;
 }
 .logo{
-    background-image: url("/Images/amazon.png");
+    background-image: url("Images/amazon.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 5rem;
@@ -330,7 +330,7 @@ hr{
 .baselogo{
     height: 23px;
     width: 76px;
-    background-image: url("/Images/amazon.png");
+    background-image: url("Images/amazon.png");
     background-size: cover;
     margin-right: 6rem;
 }
