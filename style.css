@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 35px;
+    width: 100px;
+    padding-top: 18px;
+}
+.logo{
+    background-image: url("/Images/amazon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    height: 50px;
+    width: 100%;
+    
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+
+/** box2 **/
+
+.nav-add{
+    height: 40px;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.deliver{
+    color: #cccc;
+    font-size: 0.85rem;
+    margin:15px
+}
+.india{
+    font-size: 1rem;
+    margin-left: 5px;
+    font-weight: bolder;
+}  
+
+/** box3 **/
+
+.search{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search:hover{
+    border: 3px solid #febd68;
+}
+
+
+.select{
+    width: 52px;
+    background-color: #E6E6E6;
+    font-size: 14px;
+    padding-left: 5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.icon {
+    width: 55px;
+    background-color: #febd68;
+    color: #0f1111;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+/** Box4 **/
+
+.country{
+    height: 38px;
+    width: 62px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.account{
+    width: 135px;
+    height: 40px;
+    background-color: #0f1111;
+    align-items: center;
+    padding-top: 5px;
+}
+.hello{
+    font-size: 0.8rem;
+    padding-left: 5px;
+}
+.lists{
+    font-size: 0.9rem;
+    border: none;
+    background-color: #0f1111;
+    color: white;
+    font-weight: bolder;
+}
+.returns{
+    font-size: 0.8rem;
+    padding-left: 5px;
+}
+.ret{
+    padding: 5px;
+}
+
+/** box5 **/
+
+.cart i {
+    font-size: 1.5rem;
+}
+.cart{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding: 7px;
+}
+
+/** panel **/
+
+.panel{
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+}
+.all{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-left: 8px;
+}
+#menu{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+.rest{
+    width: 932px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.anchor{
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+/** Hero **/
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 345px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero-pic{
+    object-fit: contain;
+    width: 100%; 
+}
+#hero-content{
+    background-color: white;
+    font-size: 15px;
+    width: 95%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    text-align: center;
+    margin-top: 183px;
+}
+#hero-content a{
+    color: #2162A1;
+    margin-left: 3px;
+}
+
+/** Boxes **/
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    background-color: rgb(251, 223, 226);
+}
+.space{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.supplies{
+    height: 80%;
+    background-size: cover;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    
+}
+#extra{
+    margin-bottom: -0.2rem;
+}
+
+
+.box{
+    margin-bottom: 15px;
+    padding: 20px 0px 15px;
+}
+.content{
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.content pr{
+    color: #2162A1;
+}
+
+/** footer **/
+
+footer{
+    margin-top: 15px;
+}
+.footpanel1{
+    font-size: 0.8rem;
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footpanel2{
+    background-color: #232F3E;
+    color: white;
+    height: 373px;
+}
+.footlists{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: left;
+    
+}  
+ul{
+    padding-left: 0%;
+    margin-top: 1.2rem;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 0.7rem;
+    font-size: 0.9rem;
+    color: #DDDDDD;
+}
+li:hover{
+    text-decoration: underline;
+}
+.listpr{
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+hr{
+    color: grey;
+    height: 0.2px;
+}
+.footpanel3{
+    height: 100px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baselogo{
+    height: 23px;
+    width: 76px;
+    background-image: url("/Images/amazon.png");
+    background-size: cover;
+    margin-right: 6rem;
+}
+.endbox{
+    height: 33px;
+    width: 115px;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    background-color: #232F3E;
+    margin-left: 0.5rem;
+    display: inline-block;
+}
+#innerflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+#innerflex i {
+    padding-right: 0.5rem;
+}
+
+.threebox{
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+}
