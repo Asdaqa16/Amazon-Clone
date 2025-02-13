@@ -217,7 +217,7 @@ body{
     padding-bottom: 10px;
     position: absolute;
     text-align: center;
-    margin-top: 183px;
+    margin-top: 15rem;
 }
 #hero-content a{
     color: #2162A1;
@@ -241,7 +241,7 @@ body{
     margin-bottom: 15px;
 }
 .supplies{
-    height: 80%;
+    height: 85%;
     background-size: cover;
     margin-top: 0.8rem;
     margin-bottom: 1.2rem;
