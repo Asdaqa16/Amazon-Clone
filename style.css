@@ -111,13 +111,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
-
 .account{
     width: 135px;
     height: 40px;
@@ -192,7 +185,6 @@ body{
     padding-bottom: 8px;
 }
 
-
 /** Hero **/
 
 .hero {
@@ -241,7 +233,7 @@ body{
     background-color: rgb(251, 223, 226);
 }
 .space{
-    height: 55vh;
+    height: 58vh;
     width: 23%;
     background-color: white;
     font-size: 0.9rem;
@@ -253,10 +245,7 @@ body{
     background-size: cover;
     margin-top: 0.8rem;
     margin-bottom: 1.2rem;
-    
 }
-
-
 .box{
     margin-bottom: 15px;
     padding: 20px 0px 15px;
